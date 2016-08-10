@@ -1,8 +1,8 @@
 #The main work flow of the package
 #Load the libraries
+suppressMessages(library(Rcpp))
 suppressMessages(library(inline))  #Already checked the libraries 
 suppressMessages(library(ggplot2)) #thus ignoring any messages from them
-suppressMessages(library(Rcpp))
 suppressMessages(library(gam)) 
 suppressMessages(library(RcppGSL))
 
